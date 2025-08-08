@@ -1,0 +1,19 @@
+/* src/components/Dashboard.css */
+.dashboard-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 30px;
+}
+
+.dashboard-page h1 {
+  grid-column: 1 / -1;
+  color: #c62828;
+}
+
+.dashboard-widget {
+  background-color: #ffebee;
+  border: 1px solid #c62828;
+  border-radius: 8px;
+  padding: 20px;
+}
