@@ -12,14 +12,12 @@ const Menu = () => {
   return (
     <nav className={`sidebar ${isOpen ? 'open' : 'closed'}`}>
       <div className="sidebar-header">
-        {isOpen && <span>Beyond UI</span>}
+        {isOpen && <span></span>}
         <button onClick={toggleMenu}>
           <span className="arrow-icon">{isOpen ? '▲' : '▼'}</span>
         </button>
       </div>
-      <div className="search-bar">
-        <input type="text" placeholder="Search" />
-      </div>
+    
       <ul className="nav-links">
         <li>
           <NavLink to="/" className={({ isActive }) => (isActive ? 'active-link' : '')}>
